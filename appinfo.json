@@ -1,0 +1,24 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Pebble",
+    "enableMultiJS": false,
+    "longName": "Tutorial-1-3",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "sdkVersion": "3",
+    "shortName": "Tutorial-1-3",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "34a01a04-d893-425a-b5a3-d64caeeb96a7",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
