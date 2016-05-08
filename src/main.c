@@ -82,7 +82,7 @@ static void bluetooth_callback(bool connected) {
   
   if(!connected) {
     vibes_double_pulse();
-    update_face(GColorBlack, GColorWhite);
+    update_face(GColorBlack, GColorRed);
   }
 }
 
