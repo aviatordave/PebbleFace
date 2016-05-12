@@ -56,7 +56,7 @@ static void update_face(GColor TextColor, GColor BackgroundColor) {
   // Improve the layout to be more like a watchface for local time
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, TextColor);
-  text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+  text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_ROBOTO_BOLD_SUBSET_49));
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
 
   // Improve the layout to be more like a watchface for UTC time
@@ -82,7 +82,7 @@ static void bluetooth_callback(bool connected) {
   
   if(!connected) {
     vibes_double_pulse();
-    update_face(GColorBlack, GColorRed);
+    update_face(GColorBlack, GColorWhite);
   }
 }
 
@@ -102,7 +102,7 @@ static void main_window_load(Window *window) {
   s_UTC_layer = text_layer_create(GRect(0, 143, bounds.size.w, 50));
   
   //Create the Date Layer
-  s_date_layer = text_layer_create(GRect(0, 85, bounds.size.w, 30));
+  s_date_layer = text_layer_create(GRect(0, 90, bounds.size.w, 30));
   
   // Add it as a child layer to the Window's root layer
   layer_add_child(window_layer, text_layer_get_layer(s_time_layer));

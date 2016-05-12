@@ -3,20 +3,20 @@
     "capabilities": [
         ""
     ],
-    "companyName": "Pebble",
+    "companyName": "David Harms",
     "enableMultiJS": false,
-    "longName": "Tutorial-1-3",
+    "longName": "Local and UTC",
     "projectType": "native",
     "resources": {
         "media": []
     },
     "sdkVersion": "3",
-    "shortName": "Tutorial-1-3",
+    "shortName": "Local and UTC",
     "targetPlatforms": [
         "aplite",
         "basalt"
     ],
-    "uuid": "34a01a04-d893-425a-b5a3-d64caeeb96a7",
+    "uuid": "6afea0da-956d-453b-ba01-cc61721a751e",
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
